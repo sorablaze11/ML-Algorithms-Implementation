@@ -32,6 +32,8 @@ for i in range(numOfIterations):
     cost_history.append([costFunction(X, Y, parameters), i + 1])
 #plt.plot(cost_history[:][1], cost_history[:][1]);
 #plt.show()
+
+#Printing final cost and parameters
 print("Final Parameters : {}, {}".format(parameters[0], parameters[1]))
 J = costFunction(X, Y, parameters)
 print("Final Cost : {}".format(J))
