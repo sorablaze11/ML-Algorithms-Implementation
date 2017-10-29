@@ -1,3 +1,4 @@
+# Implementation of Simple Linear Regression With Gradient Descent
 import numpy as np
 import matplotlib.pyplot as plt
 
